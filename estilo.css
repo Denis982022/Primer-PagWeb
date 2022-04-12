@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin:0px;
+   
 }
 
 header{
@@ -8,30 +9,42 @@ header{
     height: 70px; 
 }
 
+
  ul{
     
     list-style-type: none;
 
 }
 .unir{
-    
+  
     float:left;    
     padding: 22 15 18;
 }
 a{
-    
-    
+
     display: inline-block;
     font-family:"Roboto", Helvetica, Arial, sans-serif;
     color: white;
     
 }
 img.alojamiento{
-    vertical-align: middle;
+    margin: auto;
     width: 100%;
    
 
 }
-tr{
-   border-collapse: collapse;
+table{
+    margin: auto;
+    width: 700px;
+    
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 1px color: black;
 }
+th{
+    background-color: brown ;
+}
+.trcolor{
+ background-color:darkgrey
+}
+
+
