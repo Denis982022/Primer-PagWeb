@@ -1,7 +1,37 @@
-head{
-    background-color: aquamarine;
-    color: darkolivegreen;
+* {
+    box-sizing: border-box;
+    margin:0px;
 }
-body{
-    color: seashell;
+
+header{
+    background-color: brown;
+    height: 70px; 
+}
+
+ ul{
+    
+    list-style-type: none;
+
+}
+.unir{
+    
+    float:left;    
+    padding: 22 15 18;
+}
+a{
+    
+    
+    display: inline-block;
+    font-family:"Roboto", Helvetica, Arial, sans-serif;
+    color: white;
+    
+}
+img.alojamiento{
+    vertical-align: middle;
+    width: 100%;
+   
+
+}
+tr{
+   border-collapse: collapse;
 }
